@@ -1,5 +1,5 @@
 import streamlit as st
-import plotly
+import plotly as plt
 
 st.title('Giải phương trình bậc nhất')
 a = st.number_input('Tham số a')
