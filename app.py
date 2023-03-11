@@ -1,8 +1,4 @@
-from PIL import Image
-from PIL import ImageFilter
-import matplotlib.pyplot as plt
 import numpy as np
-from PIL import Image, ImageDraw
 import streamlit as st
 
 st.title('Giải phương trình bậc nhất')
