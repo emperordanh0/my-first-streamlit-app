@@ -1,6 +1,6 @@
 import streamlit as st
-import plotly as plt
-from sklearn.linear_model import LinearRegression
+
+
 
 st.title('Giải phương trình bậc nhất')
 a = st.number_input('Tham số a')
