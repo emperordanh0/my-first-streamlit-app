@@ -1,5 +1,6 @@
 import pickle
 import streamlit as st
+import numpy as np
 
 model = pickle.load(open('model.pickle', "rb"))
 x = np.array(st.number_input('Input Temperature'))
