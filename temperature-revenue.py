@@ -8,4 +8,4 @@ x = x.reshape(1,-1)
 if st.button('Predict'):
   y = model.predict(x)
   st.text('Revenue Prediction')
-  st.success(string(y[[0][0]]))
+  st.success(str(y[[0][0]]))
