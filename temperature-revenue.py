@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import matplotlib.pyplot as plt
+import numpy as np
 
 model = pickle.load(open('model.pickle', "rb"))
 if st.button('Go'):
