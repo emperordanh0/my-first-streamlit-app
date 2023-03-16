@@ -7,4 +7,5 @@ x = np.array(st.number_input('Input Temperature'))
 x = x.reshape(1,-1)
 if st.button('Predict'):
   y = model.predict(x)
-  st.success(y[[0][0]])
+  st.text('Revenue Prediction')
+  st.success(string(y[[0][0]]))
