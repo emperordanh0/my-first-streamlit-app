@@ -1,4 +1,4 @@
 plotly
 pickles
 scikit-learn
-matplotlib.pyplot
+matplotlib
