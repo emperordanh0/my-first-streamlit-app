@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model = pickle.load(open(filename, "rb"))
+model = pickle.load(open('model.pickle', "rb"))
 if st.button('Go'):
   x_line = np.array([np.min(x), np.max(x)]).reshape(-1,1)
   y_line = model.predict(x_line)
