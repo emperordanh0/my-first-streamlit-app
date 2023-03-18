@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 
 model = pickle.load(open('model.pickle', "rb"))
+rt.header('Revenue Prediction')
 x = np.array(st.number_input('Input Temperature'))
 x = x.reshape(1,-1)
 if st.button('Predict'):
